@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="input.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>CarsSpot</title>
+  </head>
+  <body class="relative">
+    <header>
+      <nav class="container mx-auto p-6 grid grid-cols-12 gap-8 items-center">
+        <div
+          class="col-span-12 lg:col-span-3 xl:ml-[20%] sm:ml-[0%] flex items-center justify-center lg:justify-start sm:justify-center sm:mb-6"
+        >
+          <img
+            src="./assets/images/left-logo/left-logo.svg"
+            alt="Logo Icon"
+            class="w-40"
+          />
+        </div>
+        <div class="col-span-12 lg:col-span-6 flex justify-center">
+          <div class="flex space-x-6">
+            <a href="#" class="text-blue-500 hover:underline">Galeria zdjęć</a>
+            <a href="#" class="text-blue-500 hover:underline">FaQ</a>
+          </div>
+        </div>
+        <div
+          class="col-span-12 lg:col-span-3 flex justify-center lg:justify-end"
+        >
+          <button
+            class="bg-casualBlue text-white px-4 py-3 rounded-lg font-robotoFlex border border-transparent hover:bg-white hover:text-casualBlue hover:border-casualBlue"
+          >
+            Zadzwoń do nas
+          </button>
+        </div>
+      </nav>
+    </header>
+    <div class="absolute top-0 right-0 z-[-1] flex flex-col items-end">
+      <img
+        class="xl:w-[85vh] h-auto mb-0 xl:mr-3 sm:w-[30vh]"
+        src="./assets/images/hero-cars/Vectors.svg"
+        alt="Vector Image"
+      />
+      <div class="relative -mt-[20%] -mr-5p">
+        <img
+          class="xl:w-[140vh] xl:h-[55vh] sm:w-[80vh] sm:h-[20vh]"
+          src="./assets/images/hero-cars/hero-cars.png"
+          alt="Cars image"
+        />
+        <img
+          class="w-200vh h-auto absolute bottom-0"
+          src="./assets/images/hero-cars/hero-cars-shadow.svg"
+          alt="Cars Shadow"
+        />
+      </div>
+    </div>
+    <main>
+      <div class="container mx-auto p-6">
+        <div class="grid grid-cols-12 gap-2 sm: ml-5p">
+          <div
+            class="col-span-12 lg:col-span-6 flex flex-col items-start xl:mt-[10%] sm:mt-[40%]"
+          >
+            <h1 class="text-5xl font-bold mb-4 font-bebasNeue">
+              SPRZEDAJEMY SAMOCHODY Z EUROPY
+            </h1>
+            <div class="flex flex-col items-start mt-6">
+              <h2 class="font-robotoCondensed">
+                Kup komfortowy pojazd, aby każda podróż
+              </h2>
+              <h2 class="font-robotoCondensed mt-1">
+                była wyjątkowym przeżyciem.
+              </h2>
+            </div>
+            <div class="flex items-center space-x-6 mt-6">
+              <button
+                class="bg-casualBlue text-white px-4 py-3 rounded-lg font-robotoFlex border border-transparent hover:bg-white hover:text-casualBlue hover:border-casualBlue"
+              >
+                Zobacz zdjęcia
+              </button>
+              <button
+                class="bg-white text-casualBlue border border-blue-500 px-4 py-3 rounded-lg font-robotoFlex relative z-20 hover:bg-casualBlue hover:text-white hover:border-transparent"
+              >
+                Zadzwoń do nas
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="container mx-auto p-6 xl:mt-[30%] sm:mt-[15%] xl:mr-0 sm:mr-[35%]"
+      >
+        <div class="grid grid-cols-12 gap-2 xl:ml-3 sm:mr-5">
+          <div class="flex flex-col w-customWidth">
+            <h3 class="text-casualBlue font-robotoCondensed">
+              Prezentacja firmy
+            </h3>
+            <h2 class="font-bebasNeue xl:text-5xl sm:text-2xl flex">
+              Zobacz naszą Galerię zdjęć
+            </h2>
+            <div class="flex space-x-10 text-base">
+              <a
+                href="#"
+                class="xl:text-base sm:text-sm font-robotoFlex active:text-casualBlue hover:text-casualBlue"
+              >
+                Samochody osobowe
+              </a>
+              <a
+                href="#"
+                class="xl:text-base sm:text-sm active:text-casualBlue font-robotoFlex hover:text-casualBlue"
+              >
+                Samochody dostawcze
+              </a>
+            </div>
+          </div>
+          <div
+            class="col-span-12 grid grid-cols-12 gap-2 xl:gap-[64px] sm:gap-[10px] xl:w-[125%] sm:w-[100%] sm:mr-5"
+          >
+            <div
+              class="col-span-12 grid grid-cols-12 gap-2 xl:gap-[64px] sm:gap-[10px] w-full"
+            >
+              <div
+                class="col-span-12 sm:col-span-4 lg:col-span-4 w-auto xl:h-[446px] sm:h-[300px] mb-4 sm:mb-[15px]"
+              >
+                <img
+                  src="./assets/images/cards-images/red-car-img.png"
+                  alt="red-car-img"
+                />
+              </div>
+              <div
+                class="col-span-12 sm:col-span-4 lg:col-span-4 w-auto h-446px xl:mb-4 sm:mb-[15px]"
+              >
+                <img
+                  src="./assets/images/cards-images/mezerati-car-img.png"
+                  alt="mezerati-car-img"
+                />
+              </div>
+              <div
+                class="col-span-12 sm:col-span-4 lg:col-span-4 w-auto h-446px xl:mb-4 sm:mb-1"
+              >
+                <img
+                  src="./assets/images/cards-images/lamp-car-img.png"
+                  alt="lamp-car-img"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-span-12 flex justify-center mt-6 mb-3">
+          <a href="#" class="w-3 h-3 mx-1 bg-casualBlue rounded-full block"></a>
+          <a
+            href="#"
+            class="w-3 h-3 mx-1 bg-disabledWhite rounded-full block hover:bg-casualBlue"
+          ></a>
+          <a
+            href="#"
+            class="w-3 h-3 mx-1 bg-disabledWhite rounded-full block hover:bg-casualBlue"
+          ></a>
+          <a
+            href="#"
+            class="w-3 h-3 mx-1 bg-disabledWhite rounded-full block hover:bg-casualBlue"
+          ></a>
+          <a
+            href="#"
+            class="w-3 h-3 mx-1 bg-disabledWhite rounded-full block hover:bg-casualBlue"
+          ></a>
+        </div>
+      </div>
+      <div class="w-full bg-black text-white border-b-2 p-8">
+        <div
+          class="container mx-auto grid grid-cols-12 justify-center text-center items-center"
+        >
+          <div class="col-span-12 md:col-span-6 grid grid-cols-12">
+            <div class="col-span-12 p-6">
+              <h3 class="text-3xl font-bebasNeue">
+                ID NOSTRUD ENIM ESSE CONSECTETUR IN EU MOLLIT FUGIAT AUTE. VELIT
+                NULLA COMMODO.
+              </h3>
+              <div class="flex flex-col">
+                <p class="text-base">
+                  Mauris varius ipsum mauris, rutrum lobortis magna efficitur a.
+                  Donec egestas, nisl vehicula feugiat ornare, diam turpis
+                  efficitur mi, ac venenatis eros ipsum ac arcu. Vestibulum et
+                  [...]
+                </p>
+                <div class="flex mt-4">
+                  <button
+                    class="self-start ml-6 mr-2 bg-black text-white border-b-2 border-white cursor-pointer"
+                  >
+                    Rozwiń
+                  </button>
+                  <img
+                    class="text-bold"
+                    src="./assets/images/buttons-vector/down-vector.svg"
+                    alt="vector-svg"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-span-12 md:col-span-6 grid grid-cols-12">
+            <div class="col-span-12 p-6">
+              <h3 class="text-3xl font-bebasNeue">
+                ID NOSTRUD ENIM ESSE CONSECTETUR IN EU MOLLIT FUGIAT AUTE. VELIT
+                NULLA COMMODO.
+              </h3>
+              <div class="flex flex-col">
+                <p class="text-base">
+                  Mauris varius ipsum mauris, rutrum lobortis magna efficitur a.
+                  Donec egestas, nisl vehicula feugiat ornare, diam turpis
+                  efficitur mi, ac venenatis eros ipsum ac arcu. Vestibulum et
+                  [...]
+                </p>
+                <div class="flex mt-5">
+                  <button
+                    class="self-start ml-6 mr-2 bg-black text-white border-b-2 border-white"
+                  >
+                    Rozwiń
+                  </button>
+                  <img
+                    class="opacity-80 cursor-pointer"
+                    src="./assets/images/buttons-vector/down-vector.svg"
+                    alt="vector-svg"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="w-full h-100px">
+      <div
+        class="flex bg-black text-white justify-between items-center h-full p-6 font-robotoCondensed"
+      >
+        <a href="#" class="font-bold ml-5p">Cars Spot</a>
+        <a href="#" class="font-normal mr-10">Polityka prywatności</a>
+      </div>
+    </footer>
+  </body>
+</html>
